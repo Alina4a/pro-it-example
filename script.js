@@ -39,7 +39,16 @@
 // }
 
 // =====Lesson6=====
-let vegetables = ["carrot","potato","cucumber"];
-vegetables.push("tomato");
+// let vegetables = ["carrot","potato","cucumber"];
+// vegetables.push("tomato");
 
-console.log(vegetables);
+// console.log(vegetables);
+
+// ====Lesson7===
+function summ(a , b) {
+    console.log(a+b);
+}
+
+summ(20 , 20);
+summ(5 , 5)
+summ(15 ,25)
