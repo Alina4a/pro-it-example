@@ -45,10 +45,41 @@
 // console.log(vegetables);
 
 // ====Lesson7===
-function summ(a , b) {
-    console.log(a+b);
-}
+// function summ(a , b) {
+//     console.log(a+b);
+// }
 
-summ(20 , 20);
-summ(5 , 5)
-summ(15 ,25)
+// summ(20 , 20);
+// summ(5 , 5)
+// summ(15 ,25)
+
+// ====Lesson8===
+
+// function checkNumber(number) {
+//     if (number % 2 === 0) {
+//         return "even"
+//     } else {
+//         return "odd"
+//     }
+// }
+
+// console.log(checkNumber(4));
+// console.log(checkNumber(6));
+// console.log(checkNumber(9));
+// console.log(checkNumber(15));
+
+// ===lesson9===
+
+let student = {
+    name: "Alya",
+    age: 38,
+    subjects: ["HTML", "CSS", "Java Script", "Git", "React"],
+
+    displayInfo: function(){
+        console.log('student : ${this.name}');
+        console.log('Age : ${this.age}');
+        console.log('studying subjects : ${this.subjects}');
+    },
+};
+
+student.displayInfo();
